@@ -1,0 +1,62 @@
+html,body {
+    background-color: #004C79;
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: #849FBB;
+}
+
+.card-columns {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+}
+
+.card {
+    border: none;
+}
+
+.card p {
+    color: #222;
+}
+
+.card h4 {
+    color: #005F97;
+}
+
+.card .card-block {
+    clear: both;
+}
+
+footer {
+    background-color: #3C8AB8;
+    color: #fafafa;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer p i.fa {
+    color: #E3000E;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    .card .card-img {
+        width: 128px;
+    }
+}
